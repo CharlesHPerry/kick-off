@@ -43,7 +43,7 @@ export default function KickoffHub() {
 
     return (
         <div className="main_div">  
-            <h1>Kickoff Hub</h1>
+            <h1 className="title">Kickoff Hub</h1>
             <div className="grouping_div">
                 {groups !== [] &&  groups.map((group) => {
                     return (
